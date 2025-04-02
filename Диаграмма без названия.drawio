@@ -1,45 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36" version="26.2.4">
-  <diagram name="Страница — 1" id="xS1fPf4Mwpcg-VgMOLHq">
+  <diagram name="Страница — 1" id="Awc8S-lVNmRYdK94gYsf">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="82" y="162" width="28" height="28" as="geometry" />
+        <mxCell id="2" value="Alice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry width="150" height="316" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
-          <mxGeometry x="89" y="8" width="14" height="14" as="geometry" />
+        <mxCell id="3" value="John" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="246" width="150" height="316" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="IsPositive" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="55" y="72" width="82" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="False" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="19" y="263" width="53" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="True" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="123" y="263" width="47" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.49;entryY=0;" edge="1" parent="1" source="4" target="2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9" value="if n &amp;lt; 0" style="curved=1;startArrow=none;;exitX=0;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="5">
+        <mxCell id="4" value="Hello John, how are you?" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="45" y="227" />
+              <mxPoint x="207" y="107" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="if n &gt;= 0" style="curved=1;startArrow=none;;exitX=0.99;exitY=1;entryX=0.49;entryY=0;" edge="1" parent="1" source="2" target="6">
+        <mxCell id="5" value="Great!" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3" target="2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="146" y="227" />
+              <mxPoint x="210" y="159" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="See you later!" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=classic;endSize=10;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="211" />
             </Array>
           </mxGeometry>
         </mxCell>
